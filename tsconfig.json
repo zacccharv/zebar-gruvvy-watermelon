@@ -1,37 +1,39 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@thearturca/shared-configs/tsconfig",
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "types": [
-      "vite/client"
-    ],
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "noEmit": true,
-    "isolatedModules": true,
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@features/*": [
-        "./src/features/*"
-      ],
-      "@providers/*": [
-        "./src/providers/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ]
-    }
-  }
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Default",
+	"compilerOptions": {
+		"declaration": true,
+		"declarationMap": true,
+		"incremental": false,
+		"moduleDetection": "force",
+		"noUncheckedIndexedAccess": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"esModuleInterop": true,
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"types": ["vite/client"],
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"noEmit": true,
+		"isolatedModules": true,
+		"paths": {
+			"@/*": ["./src/*"],
+			"@features/*": ["./src/features/*"],
+			"@providers/*": ["./src/providers/*"],
+			"@components/*": ["./src/components/*"]
+		}
+	}
 }

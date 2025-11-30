@@ -1,8 +1,8 @@
 # Zebar Bar Gruvvy Watermelon
 
-This is a Zebar bar theme based on [Rose Pine Moon](https://rosepinetheme.com/).
+This is a Zebar bar theme based on [Gruvvy Watermelon](https://github.com/zacccharv/gruvvyWatermelon) and forked from [Zebar Rose Pine](https://github.com/thearturca/zebar-rose-pine-bar).
 
-It is a simple bar with rose-pine theme and glazewm workspaces support.
+It is a simple bar with Gruvvy Watermelon theme and glazewm workspaces support.
 
 ### Features:
 
@@ -10,7 +10,7 @@ It is a simple bar with rose-pine theme and glazewm workspaces support.
 - media player support
 - time support
 - focused window title display
-- cpu and memory usage
+- cpu, memory usage, keyboard layout support
 - weather support
 
 ## Usage
