@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+	--ease-ios: cubic-bezier(0.32, 0.72, 0, 1);
+	--duration-250: 250ms;
+	--default-transition-duration: var(--duration-250);
+	--default-transition-timing-function: var(--ease-ios);
+	--color-gruvvy-watermelon-base: hsl(180deg, 10%, 17%);
+	--color-gruvvy-watermelon-surface: hsl(164, 18%, 29%);
+	--color-gruvvy-watermelon-overlay: hsl(164deg, 15%, 36%);
+	--color-gruvvy-watermelon-muted: hsl(165deg, 16%, 43%);
+	--color-gruvvy-watermelon-subtle: hsl(164deg, 18%, 50%);
+	--color-gruvvy-watermelon-text: hsl(163.55deg, 25%, 90%);
+	--color-gruvvy-watermelon-cherry: hsl(350.32deg, 100%, 69.6%);
+	--color-gruvvy-watermelon-peach: hsl(14.23deg, 74.04%, 74.31%);
+	--color-gruvvy-watermelon-raspberry: hsl(336.18deg, 65.83%, 60.98%);
+	--color-gruvvy-watermelon-watermelon: hsl(162.68deg, 38.04%, 50%);
+	--color-gruvvy-watermelon-mint: hsl(150.3deg, 66.01%, 70%);
+	--color-gruvvy-watermelon-lavender: hsl(256.1deg, 100%, 84.92%);
+	--color-gruvvy-watermelon-highlight-low: hsl(163.08deg, 20.86%, 63.33%);
+	--color-gruvvy-watermelon-highlight-med: hsl(162.35deg, 22.37%, 70.2%);
+	--color-gruvvy-watermelon-highlight-high: hsl(162.85deg, 23.73%, 76.86%);
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
+	}
+}
+
+body {
+	font-family: Hack Nerd Font Mono, ui-monospace, monospace;
+	font-size: 13px;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	overflow: hidden;
+}
