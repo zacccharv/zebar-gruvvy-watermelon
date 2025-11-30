@@ -8,7 +8,7 @@
 	"repositoryUrl": "https://github.com/zacccharv/zebar-gruvvy-watermelon",
 	"widgets": [
 		{
-			"name": "bar-gruvvy-watermelon-glazewm",
+			"name": "bar-gruvvy-watermelon",
 			"htmlPath": "./dist/src/widgets/bar/glazewm/index.html",
 			"zOrder": "normal",
 			"shownInTaskbar": false,
@@ -44,4 +44,6 @@
 		}
 	]
 }
+
+
 
