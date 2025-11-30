@@ -8,7 +8,6 @@ export const providers = zebar.createProviderGroup({
   memory: { type: "memory" },
   weather: { type: "weather" },
   date: { type: "date", formatting: "t" },
-  komorebi: { type: "komorebi" },
   glazewm: { type: "glazewm" },
   keyboard: { type: "keyboard" },
   media: { type: "media" },
@@ -24,11 +23,11 @@ export function useProviders() {
 }
 
 export function ProvidersProvider(
-  props: ParentProps<{ WmType?: "glazewm" | "komorebi" }>,
+  props: ParentProps<{ WmType?: "glazewm" }>,
 ) {
   const [output, setOutput] = createStore(providers.outputMap);
 
-  let wmProvider: zebar.KomorebiProvider | zebar.GlazeWmProvider | undefined;
+  let wmProvider: zebar.GlazeWmProvider | undefined;
 
   if (props.WmType) {
     wmProvider = zebar.createProvider({

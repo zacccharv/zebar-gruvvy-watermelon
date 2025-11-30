@@ -2,7 +2,7 @@
 
 This is a Zebar bar theme based on [Rose Pine Moon](https://rosepinetheme.com/).
 
-It is a simple bar with rose-pine theme and komorebi/glazewm workspaces support.
+It is a simple bar with rose-pine theme and glazewm workspaces support.
 
 ### Features:
 
