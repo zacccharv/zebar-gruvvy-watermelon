@@ -1,7 +1,7 @@
 {
 	"name": "bar-gruvvy-watermelon",
-	"version": "0.0.0",
-	"description": "",
+	"version": "1.0.0",
+	"description": "Simple bar with Gruvvy Watermelon theme and glazewm workspaces support",
 	"scripts": {
 		"build": "tsc --noEmit && vite build",
 		"prepublish": "pnpm build",
@@ -31,4 +31,6 @@
 		"vite-plugin-solid": "2.11.8"
 	}
 }
+
+
 

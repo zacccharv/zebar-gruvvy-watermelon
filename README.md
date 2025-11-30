@@ -1,4 +1,4 @@
-# Zebar Bar Rose Pine
+# Zebar Bar Gruvvy Watermelon
 
 This is a Zebar bar theme based on [Rose Pine Moon](https://rosepinetheme.com/).
 
