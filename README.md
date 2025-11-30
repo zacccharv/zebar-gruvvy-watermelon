@@ -2,7 +2,7 @@
 
 This is a Zebar bar theme based on [Gruvvy Watermelon](https://github.com/zacccharv/gruvvyWatermelon) and forked from [Zebar Rose Pine](https://github.com/thearturca/zebar-rose-pine-bar).
 
-It is a simple bar with Gruvvy Watermelon theme and glazewm workspaces support.
+It is a simple bar with the Gruvvy Watermelon theme and glazewm workspaces support.
 
 ### Features:
 
